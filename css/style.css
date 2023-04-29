@@ -106,31 +106,45 @@ body{
     border: 0px;
     background-color: #090909;
     margin-right: 10px;
+    margin-top: 6px;
 }
 
 .topBar .navBar{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-}
-.topBar .navBar ul{
-    list-style: none;
-}
-.topBar .navBar ul li{
-    display: inline-block;
     margin: 0px 8px;
-    width: 110px;
+    width: 220px;
     text-align: center;
 }
-.topBar .navBar ul li a{
+.topBar .navBar a{
     color: #b3b3b3;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 1px;
 }
-.topBar .navBar ul li a:hover,
-.topBar .navBar ul li a:active,
-.topBar .navBar ul li a:focus{
+.topBar .navBar  a:hover,
+.topBar .navBar  a:active,
+.topBar .navBar  a:focus{
     color: #fff;
-    font-size: 15px;
+    font-size: 14.5px;
 }
+
+.topBar .navBar button{
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 28px;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.topBar .navBar button:hover,
+.topBar .navBar button:active,
+.topBar .navBar button:focus{
+    font-size: 16.8px;
+}
+
+    
