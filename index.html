@@ -71,6 +71,10 @@
                         <a href="#">Cookies</a>
                     </li>
                 </ul>
+
+                <div class="button-globe-div">
+                    <a href="#"><Button class="fas fa-globe button-globe"> Portugues do Brasil</Button></a>
+                </div>
             </div>
         </div>
     </header>
@@ -115,23 +119,37 @@
                 <div>
                     <div class="navBar-mobile">
                     
-                        <div class="menu-mobile overlay" id="myNav">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closedNav()">&times;</a>
-                            <div class="overlay-content menu-m">
+                        <div class="menu-mobile">
+                            <div class="menu-m">
+
                                 <div>
                                     <span class="fa fa-search"></span>
                                 </div>
                                 <div>
-                                    <button class="button-mobile" type="button">Abrir o app</button>
+                                    <a href="#"><button class="button-mobile" type="button">Abrir o app</button></a>
                                 </div>
                                 <div>
-                                    <span class="menu-hamburguer">&#9776</span>
+                                    <span class="menu-hamburguer" onclick="openNav()">&#9776</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="#">Entre</a>
+                  <a href="#">Inscreva-se</a>
+                  <span class="span-menu-mobile">-</span>
+                  <a href="#">Premiun</a>
+                  <a href="#">Ajuda</a>
+                  <a href="#">Baixar</a>
+                  <a href="#">Privacidade</a>
+                  <a href="#">Condições</a>
+                </div>
+              </div>
         </header>
 
         <section>
@@ -238,6 +256,10 @@
                     </div>  
                 </div>
                 <hr>
+
+                <div class="button-globe-div">
+                    <a href="#"><Button class="fas fa-globe button-globe"> Portugues do Brasil</Button></a>
+                </div>
             </div>
         </section>
 
