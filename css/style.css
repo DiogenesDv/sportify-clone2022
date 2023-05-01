@@ -92,10 +92,14 @@ body {
 
 .main-container {
     margin-left: 245px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+    
 }
 
 .topBar {
+    position: fixed;
+    top: 0;
+    width:100% ;
     display: flex;
     justify-content: space-between;
     background-color: #101010;
@@ -119,8 +123,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 8px;
-    width: 470px;
+    margin-right: 300px;
     text-align: center;
 }
 
@@ -135,6 +138,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
+    padding: 10px;
     letter-spacing: 1px;
 }
 
@@ -205,6 +209,7 @@ body {
 }
 
 .playlists {
+    margin-top: 60px;
     padding: 20px;
     margin-left: 245px;
 }
@@ -229,7 +234,7 @@ body {
 
 .playlists .lista-albuns .artistas {
     min-width: 140px;
-    width: 160px;
+    width: 250px;
     padding: 15px;
     background-color: #181818;
     border-radius: 6px;
@@ -284,7 +289,7 @@ body {
 }
 
 .playlists hr {
-    margin: 70px 0px 0px;
+    margin-bottom: 100px;
     border-color: #636363;
 }
 
@@ -296,7 +301,7 @@ body {
     border-radius: 20px;
 }
 .button-globe:hover{
-    font-size: 13px;
+    font-size: 10.2px;
 }
 
 .button-globe {
@@ -324,7 +329,7 @@ body {
     .navBar-mobile {
         display: none;
     }
-
+    
 }
 
 @media (max-width: 768px) {
@@ -390,6 +395,15 @@ body {
 
     .playlists {
         margin-left: 0;
+    }
+    .playlists .lista-albuns .artistas {
+        min-width: 140px;
+        width: 250px;  
+        align-items: center; 
+    }
+    .playlists .lista-albuns{
+        display: flex;
+        
     }
 }
 
